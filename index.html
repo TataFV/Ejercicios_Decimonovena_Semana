@@ -1,0 +1,67 @@
+<head>
+    </style>
+    </<head>
+
+<body id="cuerpo">
+    <div id="container">
+        <div id="heroe" class="heroe">
+            <h1>Heroe</h1>
+            <h3>
+                Nivel:
+                <nivel id="nivel">-1</nivel>
+            </h3>
+            <h3>
+                Experiencia:
+                <experiencia id="experiencia">-1</experiencia>
+            </h3>
+            <h3>
+                Salud:
+                <hp id="vida">-1</hp>/<hp id="vidaTotal"></hp>
+            </h3>
+            <button id="boton">Atacar</button>
+            <button id="defender">Defender</button>
+        </div>
+        <div id="enemigo" class="enemigo">
+            <h1>Enemigo</h1>
+            <h3>
+                Nivel:
+                <nivel id="nivelEnemigo">-1</nivel>sadf
+            </h3>
+            <h3>
+                Salud:
+                <hp id="vidaEnemigo">-1</hp>/<hp id="vidaTotalEnemigo"></hp>
+            </h3>
+        </div>
+        <div>
+            <h3>Tamaño texto</h3>
+            <input type="radio" name="tamTexto" class="tamTexto" value="16px">12px<br>
+            <input type="radio" name="tamTexto" class="tamTexto" value="20px">26px<br>
+            <h3>Color texto</h3>
+            <input type="radio" name="colorTexto" class="colorTexto" value="navy">Azul<br>
+            <input type="radio" name="colorTexto" class="colorTexto" value="slateBlue">Violeta<br>
+            <h3>Color de fondo</h3>
+            <input type="radio" name="colorFondo" class="colorFondo" value="silver">Gris<br>
+            <input type="radio" name="colorFondo" class="colorFondo" value="gold">Dorado<br>
+        </div>
+        <div>
+            <h3>Notas</h3>
+            <textarea id="notas" name="textArea" rows="4" cols="20">Escribe aquí tus notas...</textarea>
+            <button id="save">Guardar</button>
+        </div>
+        <div>
+            <button id="borrar">Borrar datos de la sesion</button>
+        </div>
+    </div>
+    </div>
+</body>
+<footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="preload.js"></script>
+    <script src="inputs.js"></script>
+    <script src="personaje.js"></script>
+    <script src="heroe.js"></script>
+    <script src="enemigo.js"></script>
+    <script src="boton.js"></script>
+    <script src="main.js"></script>
+</footer>
